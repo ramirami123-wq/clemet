@@ -111,8 +111,39 @@
         "max_image_zoom_level": 3
       }
     },
+    "scrolling_content_MPaJz4": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_RPTWee": {
+          "type": "text",
+          "settings": {
+            "text": "Where Beauty Is Found"
+          }
+        }
+      },
+      "block_order": [
+        "text_RPTWee"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 42,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -127,10 +158,153 @@
         "title": "Related products",
         "content": ""
       }
+    },
+    "rich_text_dmLPTn": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wTqfg8": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_J6UmHk": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_9PQmYJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wTqfg8",
+        "heading_J6UmHk",
+        "richtext_9PQmYJ"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "scrolling_content_UtaipM": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_KaCULA": {
+          "type": "text",
+          "settings": {
+            "text": "Where Beauty Is Found"
+          }
+        }
+      },
+      "block_order": [
+        "text_KaCULA"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 42,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    "image_with_text_YRr3VL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_kHbU89": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_FExXVw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kHbU89",
+        "richtext_FExXVw"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "faq_7cceaa": {
+      "type": "faq",
+      "blocks": {
+        "question_W6qGqK": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "question_iBUeJU": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "question_nhxbVe": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_W6qGqK",
+        "question_iBUeJU",
+        "question_nhxbVe"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "scrolling_content_MPaJz4",
+    "related-products",
+    "rich_text_dmLPTn",
+    "scrolling_content_UtaipM",
+    "image_with_text_YRr3VL",
+    "faq_7cceaa"
   ]
 }
